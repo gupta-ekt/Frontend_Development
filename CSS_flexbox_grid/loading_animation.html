@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Loading Animation</title>
   <style>
-    /* --- Page Setup --- */
+    
     body {
       margin: 0;
       height: 100vh;
@@ -16,7 +16,7 @@
       font-family: Arial, sans-serif;
     }
 
-    /* --- Loader Container --- */
+    
     .loader {
       display: flex;
       justify-content: center;
@@ -24,7 +24,7 @@
       gap: 10px; /* space between circles */
     }
 
-    /* --- Circles --- */
+    
     .circle {
       width: 15px;
       height: 15px;
@@ -33,7 +33,7 @@
       animation: bounce 0.6s ease-in-out infinite;
     }
 
-    /* --- Delay for each circle --- */
+   
     .circle:nth-child(1) {
       animation-delay: 0s;
     }
@@ -44,7 +44,7 @@
       animation-delay: 0.2s;
     }
 
-    /* --- Keyframes for Bouncing --- */
+    
     @keyframes bounce {
       0%, 100% {
         transform: translateY(0);
