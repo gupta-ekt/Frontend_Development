@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  border: 2px solid #007BFF;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+a[href^="https"] {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a[href^="http"]:not([href^="https"]) {
+  color: red;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: blue;
+}
+
+input:focus {
+  border-color: orange;
+  outline: none;
+}
+
+ul li:nth-child(odd) {
+  background-color: #e3f2fd;
+}
+
+ul li:nth-child(even) {
+  background-color: #fce4ec;
+}
+
+h2::before {
+  content: "★ ";
+  color: gold;
+}
+
+h2::after {
+  content: " ★";
+  color: gold;
+}
+
+.parent p {
+  color: #555;
+}
+
+.parent > p {
+  color: #007BFF;
+  font-weight: bold;
+}
+
+.next + p {
+  color: #E91E63;
+}
+
+.next ~ p {
+  font-style: italic;
+  color: #9C27B0;
+}

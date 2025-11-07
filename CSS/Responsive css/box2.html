@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: aquamarine;
+    }
+
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        text-align: center;
+        border-radius: 10px;
+        animation: rotate 5s linear infinite  alternate;
+        text-align: center;
+    }
+
+    @keyframes rotate{
+        form{ transform :rotate(0deg);}
+        to{ transform: rotate(360deg);}
+    }
+</style>
+<body>
+    <div class="box">Rotation</div>
+</body>
+</html>
